@@ -1,0 +1,5 @@
+  
+type Query {
+  notes: [String]
+  customNote(title: String!): String!
+}
